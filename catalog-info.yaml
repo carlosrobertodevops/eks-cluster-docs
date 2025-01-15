@@ -10,4 +10,6 @@ spec:
   type: documentation
   lifecycle: experimental
   owner: "group:default/default"
-  link: https://backstage.carlosrobertodevops.com.br/eks-cluster-docs
+  links:
+  - url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/catalog-info.yaml
+    title: Repositório GitHub
