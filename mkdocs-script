@@ -4,7 +4,6 @@
 export $(grep -v '^#' .env | xargs)
 
 # Prepare
-REPOSITORY_URL=https://github.com/carlosrobertodevops/eks-cluster-docs.git
 git clone $REPOSITORY_URL
 cd repo
 
