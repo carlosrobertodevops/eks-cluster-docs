@@ -1,0 +1,8 @@
+site_name: "eks-cluster"
+site_description: "eks-cluster"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core

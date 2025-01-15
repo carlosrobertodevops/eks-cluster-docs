@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "eks-cluster"
+  description: "eks-cluster"
+  annotations:
+    github.com/project-slug: carlosrobertodevops/eks-cluster-docs
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "group:default/default"
