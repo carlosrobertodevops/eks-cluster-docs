@@ -3,7 +3,11 @@ kind: Component
 metadata:
   name: "eks-cluster"
   description: "eks-cluster"
-  tags: ['EKS', 'AWS', 'Cluster', 'Node']
+  tags: 
+    -'EKS'
+    - 'AWS'
+    - 'Cluster'
+    - 'Node'
   annotations:
     github.com/project-slug: carlosrobertodevops/eks-cluster-docs
     backstage.io/techdocs-ref: dir:.
