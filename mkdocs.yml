@@ -1,5 +1,5 @@
-site_name: "eks-cluster"
-site_description: "eks-cluster"
+site_name: "eks-cluster-docs"
+site_description: "eks-cluster-docs"
 plugins:
 - techdocs-core
 nav:
