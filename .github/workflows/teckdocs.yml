@@ -7,6 +7,14 @@ on:
     paths:
       - 'docs/**'
       - 'mkdocs.yml'
+  config:
+    # This is a recommended way to run the workflow only when the config file is updated.
+    paths:
+      - '.github/workflows/techdocs.yml'
+  commit_comment:
+    # This is a recommended way to run the workflow only when the config file is updated.
+    paths:
+      - '.github/workflows/techdocs.yml'
 
 jobs:
   publish-techdocs-site:
