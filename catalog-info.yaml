@@ -12,4 +12,4 @@ spec:
   owner: "group:default/default"
   links:
   - url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/catalog-info.yaml
-    title: Repositório GitHub
+    title: Repositório GitHub Web
