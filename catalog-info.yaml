@@ -4,11 +4,8 @@ metadata:
   name: "eks-cluster-docs"
   description: "eks-cluster-docs"
   annotations:
-    # github.com/project-slug: carlosrobertodevops/eks-cluster-docs
-    github.com/project-slug: backstage/backstage
+    github.com/project-slug: carlosrobertodevops/eks-cluster-docs
     backstage.io/techdocs-ref: dir:.
-    # backstage.io/view-url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/catalog-info.yaml
-    # backstage.io/edit-url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/catalog-info.yaml
 spec:
   type: documentation
   lifecycle: experimental
