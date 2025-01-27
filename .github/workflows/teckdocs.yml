@@ -7,7 +7,7 @@ on:
     paths:
       - 'docs/**'
       - 'mkdocs.yml'
-      - '.github/workflows/techdocs.yml'
+      - './.github/workflows/techdocs.yml'
 
   # workflow_dispatch:
   # This allows you to manually trigger the workflow.
