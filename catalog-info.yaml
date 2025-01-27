@@ -11,5 +11,5 @@ spec:
   lifecycle: experimental
   owner: "group:default/default"
   links:
-  - url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/catalog-info.yaml
+  - url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/site/techdocs_metadata.json
     title: Repositório GitHub Web
