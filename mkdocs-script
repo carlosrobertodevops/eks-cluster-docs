@@ -28,8 +28,7 @@ techdocs-cli generate --no-docker
 techdocs-cli publish \
 	--publisher-type awsS3 \
 	--storage-name $TECHDOCS_BUCKET \
-	--entity $NAMESPACE/$KIND/$NAME \
-	--verbose
+	--entity $NAMESPACE/$KIND/$NAME
 
 rm -rf "./eks-cluster-docs"
 rm -rf "./site/"
