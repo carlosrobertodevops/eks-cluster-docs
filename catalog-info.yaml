@@ -10,6 +10,6 @@ spec:
   type: documentation
   lifecycle: experimental
   owner: "group:default/default"
-  links:
-  - url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/site/index.html
-    title: Repositório GitHub Web
+  # links:
+  # - url: https://github.com/carlosrobertodevops/eks-cluster-docs/blob/main/site/index.html
+  #   title: Repositório GitHub Web
