@@ -9,6 +9,7 @@ on:
       - "mkdocs.yml"
       - "catalog-info.yaml"
       - "app-config.yaml"
+      - "./teckdocs.yml"
 
   # This allows you to manually trigger the workflow.
 jobs:
