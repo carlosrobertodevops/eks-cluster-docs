@@ -20,7 +20,6 @@ techdocs-cli publish \
 	--publisher-type awsS3 \
 	--storage-name $TECHDOCS_BUCKET \
 	--entity $NAMESPACE/$KIND/$NAME \
-	# --region $AWS_REGION
 
 rm -rf "./eks-cluster-docs"
 rm -rf "./site/"
