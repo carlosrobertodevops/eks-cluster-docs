@@ -1,3 +1,10 @@
+app:
+  title: ${app_title} # Scaffolded Backstage App
+  baseUrl: ${BASEURL_LOCAL}:${PORT_APP} # http://localhost:3000
+
+organization:
+  name: ${organization_name} # My Company
+
 techdocs:
   publisher:
     type: 'awsS3'
