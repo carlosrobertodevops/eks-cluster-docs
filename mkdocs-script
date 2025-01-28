@@ -11,9 +11,6 @@ cd repo
 npm install -g @techdocs/cli
 pip install "mkdocs-techdocs-core==1.*"
 
-
-AWS_REGION=us-east-1
-
 # Generate
 techdocs-cli generate --no-docker
 
@@ -22,7 +19,8 @@ techdocs-cli generate --no-docker
 techdocs-cli publish \
 	--publisher-type awsS3 \
 	--storage-name $TECHDOCS_BUCKET \
-	--entity $NAMESPACE/$KIND/$NAME
+	--entity $NAMESPACE/$KIND/$NAME \
+	# --region $AWS_REGION
 
 rm -rf "./eks-cluster-docs"
 rm -rf "./site/"
