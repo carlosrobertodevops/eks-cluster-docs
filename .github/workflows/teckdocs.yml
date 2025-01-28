@@ -8,7 +8,7 @@ on:
       - "docs/**"
       - "mkdocs.yml"
       - "catalog-info.yaml"
-      - "./.github/workflows/techdocs.yml"
+      - "app-config.yaml"
 
   # workflow_dispatch:
   # This allows you to manually trigger the workflow.
