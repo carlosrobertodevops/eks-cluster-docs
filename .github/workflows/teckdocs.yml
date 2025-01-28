@@ -32,7 +32,7 @@ jobs:
 
     # steps:
     #   - name: Debug Variables
-    #     run: echo "Namespace: $NAMESPACE, Kind: $KIND, Name: $NAME"
+    #     run: echo "Namespace: NAMESPACE, Kind: KIND, Name: NAME"
 
     steps:
       - name: Checkout code
