@@ -11,6 +11,9 @@ cd repo
 npm install -g @techdocs/cli
 pip install "mkdocs-techdocs-core==1.*"
 
+
+AWS_REGION=us-east-1
+
 # Generate
 techdocs-cli generate --no-docker
 
